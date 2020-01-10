@@ -1,7 +1,7 @@
 Name: hunspell-sv
 Summary: Swedish hunspell dictionaries
 Version: 2.10
-Release: 2%{?dist}
+Release: 3%{?dist}
 Source: http://dsso.googlecode.com/files/sv-%{version}.zip
 Group: Applications/Text
 URL: http://dsso.se/
@@ -34,6 +34,9 @@ rm -rf $RPM_BUILD_ROOT
 %{_datadir}/myspell/*
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 2.10-3
+- Mass rebuild 2013-12-27
+
 * Thu Feb 14 2013 Fedora Release Engineering <rel-eng@lists.fedoraproject.org> - 2.10-2
 - Rebuilt for https://fedoraproject.org/wiki/Fedora_19_Mass_Rebuild
 
